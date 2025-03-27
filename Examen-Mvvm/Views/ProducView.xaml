@@ -15,10 +15,13 @@
         <Label Text="Ingrese el precio del tercer producto" />
         <Entry Text="{Binding Producto3}" Keyboard="Numeric"/>
 
+        <Label Text="Sub Total" />
         <Entry Text="{Binding Subtotal}" IsReadOnly="True"/>
 
+        <Label Text="Descuento" />
         <Entry Text="{Binding Descuento}" IsReadOnly="True"/>
 
+        <Label Text="Total" />
         <Entry Text="{Binding Total}" IsReadOnly="True"/>
 
         <Button Text="Calcular" Background="Green" Command="{Binding CalcularCommand}"/>
