@@ -1,12 +1,14 @@
+using Examen_Mvvm.ViewModels;
+
 namespace Examen_Mvvm.Views;
 
 public partial class ProducView : ContentPage
 {
-    ProducViewModel viewModel = new ProducViewModel();
+    ProductViewModel viewModel;
     public ProducView()
 	{
 		InitializeComponent();
-        viewModel = new ProducViewModel();
+        viewModel = new ProductViewModel();
         this.BindingContext = viewModel;
     }
 }
