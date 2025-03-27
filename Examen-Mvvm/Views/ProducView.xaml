@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen_Mvvm.Views.ProducView"
+             Title="ProducView">
+    <VerticalStackLayout Padding="20" Spacing="5">
+        <Label Text="Ingrese el precio del primer producto" />
+        <Entry Text="" Keyboard="Numeric"/>
+
+        <Label Text="Ingrese el precio del segundo producto" />
+        <Entry Text="" Keyboard="Numeric"/>
+
+        <Label Text="Ingrese el precio del tercer producto" />
+        <Entry Text="" Keyboard="Numeric"/>
+
+        <Entry Text="" IsReadOnly="True"/>
+
+        <Entry Text="" IsReadOnly="True"/>
+
+        <Entry Text="" IsReadOnly="True"/>
+
+        <Button Text="Calcular" Background="Green"/>
+        <Button Text="Limpiar" Background="Red"/>
+    </VerticalStackLayout>
+</ContentPage>
